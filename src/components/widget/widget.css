@@ -1,0 +1,37 @@
+.widget {
+  text-align: justify;
+  background: #414288;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 10px;
+}
+
+.widget-header {
+  padding: 0 1rem;
+}
+
+.widget-content {
+  padding: 0 1rem;
+}
+
+.meta-data {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-footer {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: #151515;
+  border-radius: 0 0 10px 10px;
+}
+
+/*# sourceMappingURL=widget.css.map */

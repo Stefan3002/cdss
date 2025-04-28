@@ -1,0 +1,13 @@
+body {
+  font-family: "Cabin", sans-serif;
+  background: #6494AA;
+}
+
+.header {
+  background: gray;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=header.css.map */
