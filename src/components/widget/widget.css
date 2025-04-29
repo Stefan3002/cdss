@@ -1,16 +1,22 @@
 .widget {
+  padding: 0;
   text-align: justify;
-  background: #414288;
+  background: #EDE5A6;
   max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  border-radius: 10px;
+}
+
+.widget-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
 }
 
 .widget-header {
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .widget-content {
@@ -25,6 +31,7 @@
 }
 
 .widget-footer {
+  color: whitesmoke;
   display: flex;
   gap: 0.5rem;
   justify-content: center;

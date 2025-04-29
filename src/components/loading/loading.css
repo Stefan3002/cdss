@@ -1,0 +1,12 @@
+.loading-icon {
+  width: 80px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=loading.css.map */
