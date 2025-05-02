@@ -1,0 +1,27 @@
+@import '../../variables'
+
+.patient
+  background: $main-color
+  border-radius: $border-radius
+  padding: 1rem
+  box-shadow: $box-shadow
+  display: flex
+  flex-direction: column
+  transition: all .15s ease-in-out
+  &:hover, &:focus
+    box-shadow: none
+
+
+.patient-header
+  background: $dark-color
+  color: whitesmoke
+  padding: 1rem
+  border-radius: $border-radius
+
+.patient .meta-data
+  //gap: 1rem
+
+.patient-footer
+  display: flex
+  justify-content: space-between
+  align-items: center

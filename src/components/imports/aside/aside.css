@@ -1,7 +1,27 @@
 .aside {
   min-height: 100%;
-  width: 100px;
+  width: 200px;
   background: #EDE5A6;
+}
+
+.aside-item {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-double-item {
+  display: flex;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aside-double-item .current-patient {
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0;
 }
 
 /*# sourceMappingURL=aside.css.map */

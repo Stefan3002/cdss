@@ -4,7 +4,6 @@ import Body from "../../imports/body/body.jsx";
 const HomePage = () => {
     return (
         <div className='outer-wrapper'>
-            <Header />
             <Body />
         </div>
     )

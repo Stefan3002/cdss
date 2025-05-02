@@ -1,0 +1,1 @@
+export const getPatient = (state) => state.patient.patient

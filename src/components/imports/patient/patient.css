@@ -1,0 +1,27 @@
+.patient {
+  background: #F2A359;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.15s ease-in-out;
+}
+.patient:hover, .patient:focus {
+  box-shadow: none;
+}
+
+.patient-header {
+  background: #151515;
+  color: whitesmoke;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.patient-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=patient.css.map */
